@@ -23,5 +23,59 @@
             <li><a href="buku-tamu.html">Buku Tamu</a></li>
         </ul>
     </nav>
+
+    <main class="content">
+        <section id="buku-tamu" class="card">
+            <h2>Buku Tamu</h2>
+            <form id="guestForm">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="instansi">Instansi / Kampus:</label>
+                    <input type="text" id="instansi" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="kategori">Kategori Pengunjung:</label>
+                    <select id="kategori" required>
+                        <option value="">-- Pilih --</option>
+                        <option value="Mahasiswa">Mahasiswa</option>
+                        <option value="Dosen">Dosen</option>
+                        <option value="Umum">Umum</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan / Kesan:</label>
+                    <textarea id="pesan" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Kirim</button>
+            </form>
+
+            <!-- Output hasil Form -->
+            <div id="formResult" class="result-box" style="display: none;">
+                <h3>Hasil Input Buku Tamu:</h3>
+                <p id="resNama"></p>
+                <p id="resEmail"></p>
+                <p id="resInstansi"></p>
+                <p id="resKategori"></p>
+                <p id="resPesan"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 | Nathanael Andra Putra - A11.2026.16747</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

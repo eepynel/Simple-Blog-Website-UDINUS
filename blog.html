@@ -1,34 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Web Blog</title>
-</head>
-<body>
-<!-- 1. HEADER -->
+  </head>
+  <body>
+    <!-- 1. HEADER -->
     <header class="header">
-        <h1>Blog Pribadi</h1>
-        <p>UAS Pemrograman Web - HTML, CSS, & JS Native</p>
+      <h1>Blog Pribadi</h1>
+      <p>UAS Pemrograman Web - HTML, CSS, & JS Native</p>
     </header>
 
     <!-- 2. MENU (NAVIGASI) -->
     <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="buku-tamu.html">Buku Tamu</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="buku-tamu.html">Buku Tamu</a></li>
+      </ul>
     </nav>
 
     <main class="content">
-        <section id="card1" class="card">
-            <h1>Halo</h1>
+      <section id="blog" class="card">
+        <h2>Daftar Artikel</h2>
 
-        </section>
+        <article class="blog-item">
+          <h3>1. Pengalaman Minggu Pertama Jadi Maba IT</h3>
+          <small>Diposting pada: 10 Agustus 2026</small>
+          <p>
+            Kesan pertama masuk jurusan Teknik Informatika, mulai dari
+            pengenalan logika dasar hingga persiapan belajar bahasa
+            pemrograman...
+          </p>
+          <a href="#">Read More / Selengkapnya</a>
+        </article>
+        <hr />
+
+        <article class="blog-item">
+          <h3>2. Tips Belajar Dasar HTML & CSS untuk Pemula</h3>
+          <small>Diposting pada: 12 Agustus 2026</small>
+          <p>
+            Memahami struktur tag dasar dalam HTML dan bagaimana memberikan
+            styling menggunakan CSS Native agar tampilan web rapi...
+          </p>
+          <a href="#">Read More / Selengkapnya</a>
+        </article>
+        <hr />
+
+        <article class="blog-item">
+          <h3>3. Mengapa Logika Pemrograman Itu Penting?</h3>
+          <small>Diposting pada: 15 Agustus 2026</small>
+          <p>
+            Penjelasan mengenai dasar-dasar algoritma dan cara melatih pemikiran
+            terstruktur sebelum melangkah ke sintaks bahasa pemrograman...
+          </p>
+          <a href="#">Read More / Selengkapnya</a>
+        </article>
+      </section>
     </main>
-</body>
+
+    <footer class="footer">
+      <p>&copy; 2026 | Nathanael Andra Putra - A11.2026.16747</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
