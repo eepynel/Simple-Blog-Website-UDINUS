@@ -1,0 +1,132 @@
+/* Reset & Body Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sf pro display, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 1. Header (Warna biru sesuai diagram) */
+.header {
+    background-color: #1a438d;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+/* 2. Menu Navigasi */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li a {
+    display: block;
+    padding: 15px 25px;
+    color: #1a438d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    background-color: grey;
+}
+
+/* 3. Content Area */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card h2 {
+    color: #1a438d;
+    border-bottom: 2px solid #1a438d;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.blog-item {
+    margin: 15px 0;
+}
+
+.blog-item a {
+    color: #1a438d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.blog-item a:hover {
+    text-decoration: underline;
+}
+
+/* Form Layout */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #1a438d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #122d60;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9f3ff;
+    border: 1px solid #b6d4fe;
+    border-radius: 4px;
+}
+
+/* 4. Footer (Lain-lain) */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
