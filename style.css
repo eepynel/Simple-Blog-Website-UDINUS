@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: #f4f6f9;
+    background-color: #E3F2FD;
     color: #333;
     line-height: 1.6;
 }
 
 /* 1. Header (Warna biru sesuai diagram) */
 .header {
-    background-color: #1a438d;
+    background-color: #0D47A1;
     color: white;
     text-align: center;
     padding: 25px 10px;
@@ -23,7 +23,7 @@ body {
 /* 2. Menu Navigasi */
 .navbar {
     background-color: #ffffff;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #90CAF9;
 }
 
 .navbar ul {
@@ -35,13 +35,13 @@ body {
 .navbar li a {
     display: block;
     padding: 15px 25px;
-    color: #1a438d;
+    color: #0D47A1;
     text-decoration: none;
     font-weight: bold;
 }
 
 .navbar li a:hover {
-    background-color: grey;
+    background-color: rgb(195, 196, 197);
 }
 
 /* 3. Content Area */
@@ -60,8 +60,8 @@ body {
 }
 
 .card h2 {
-    color: #1a438d;
-    border-bottom: 2px solid #1a438d;
+    color: #0D47A1;
+    border-bottom: 2px solid #0D47A1;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .blog-item a {
-    color: #1a438d;
+    color: #0D47A1;
     font-weight: bold;
     text-decoration: none;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 button {
-    background-color: #1a438d;
+    background-color: #2196F3;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -111,14 +111,14 @@ button {
 }
 
 button:hover {
-    background-color: #122d60;
+    background-color: #0D47A1;
 }
 
 .result-box {
     margin-top: 20px;
     padding: 15px;
-    background-color: #e9f3ff;
-    border: 1px solid #b6d4fe;
+    background-color: #E3F2FD;
+    border: 1px solid #90CAF9;
     border-radius: 4px;
 }
 
