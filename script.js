@@ -32,11 +32,11 @@ if (sapaanElement) {
     const jam = new Date().getHours();
     let teksSapaan = "";
 
-    if (jam < 10) {
+    if (jam <= 10) {
         teksSapaan = "Selamat Pagi!";
-    } else if (jam < 14) {
+    } else if (jam <= 14) {
         teksSapaan = "Selamat Siang!";
-    } else if (jam < 17) {
+    } else if (jam <= 17) {
         teksSapaan = "Selamat Sore!";
     } else {
         teksSapaan = "Selamat Malam!";

@@ -79,6 +79,27 @@ body {
     object-position: center;
 }
 
+.card ul {
+    list-style: none;
+    display: flex;
+    justify-content: right La so;
+}
+
+.card li a {
+    display: block;
+    text-decoration: none;
+    color: #BDD18D;
+    margin: 10px;
+    font-weight: bold;
+    background-color: #173C4C;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.card li a:hover {
+    background-color:#326D6C;
+}
+
 .blog-item {
     margin: 15px 0;
 }
