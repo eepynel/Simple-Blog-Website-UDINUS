@@ -7,23 +7,27 @@
 }
 
 body {
-    background-color: #E3F2FD;
-    color: #333;
+    background-color: #0f252e;
+    color: #F0F6F2;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* 1. Header (Warna biru sesuai diagram) */
 .header {
-    background-color: #0D47A1;
+    background-image: url("assets/wallpaper.png");
+    background-position: bottom;
     color: white;
     text-align: center;
     padding: 25px 10px;
 }
 
+
 /* 2. Menu Navigasi */
 .navbar {
-    background-color: #ffffff;
-    border-bottom: 2px solid #90CAF9;
+    background-color: #173C4C;
 }
 
 .navbar ul {
@@ -35,13 +39,13 @@ body {
 .navbar li a {
     display: block;
     padding: 15px 25px;
-    color: #0D47A1;
+    color: #BDD18D;
     text-decoration: none;
     font-weight: bold;
 }
 
 .navbar li a:hover {
-    background-color: rgb(195, 196, 197);
+    background-color: #326D6C;
 }
 
 /* 3. Content Area */
@@ -49,21 +53,30 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 15px;
+    flex: 1;
+    width: 100%
 }
 
 .card {
-    background: white;
+    background: #85B093;
     padding: 20px;
     margin-bottom: 25px;
-    border: 1px solid #ddd;
+    border: 1px solid #568F7C;
     border-radius: 4px;
 }
 
 .card h2 {
-    color: #0D47A1;
-    border-bottom: 2px solid #0D47A1;
+    color: white;
+    border-bottom: 2px solid #BDD18D;
     padding-bottom: 5px;
     margin-bottom: 15px;
+}
+
+.card img {
+    width : 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .blog-item {
@@ -71,7 +84,7 @@ body {
 }
 
 .blog-item a {
-    color: #0D47A1;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -101,7 +114,7 @@ body {
 }
 
 button {
-    background-color: #2196F3;
+    background-color: #568F7C;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -111,14 +124,14 @@ button {
 }
 
 button:hover {
-    background-color: #0D47A1;
+    background-color: #326D6C;
 }
 
 .result-box {
     margin-top: 20px;
     padding: 15px;
-    background-color: #E3F2FD;
-    border: 1px solid #90CAF9;
+    background-color: #BDD18D;
+    border: 1px solid #326D6C;
     border-radius: 4px;
 }
 
@@ -126,7 +139,7 @@ button:hover {
 .footer {
     text-align: center;
     padding: 15px;
-    background-color: #ffffff;
-    border-top: 1px solid #ccc;
+    background-color: #173C4C;
+    color: #BDD18D;
     margin-top: 20px;
 }
