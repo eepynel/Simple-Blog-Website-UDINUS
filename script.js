@@ -44,3 +44,27 @@ if (sapaanElement) {
 
     sapaanElement.textContent = teksSapaan;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Ambil semua tombol read more
+  const readMoreBtns = document.querySelectorAll(".read-more-btn");
+
+  readMoreBtns.forEach((btn) => {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault(); // Mencegah halaman reload/scroll ke atas karena href="#"
+
+      // Cari elemen paragraf induk dari tombol yang diklik
+      const blogItem = this.closest(".blog-item");
+      const moreText = blogItem.querySelector(".more-text");
+
+      // Cek status tampilan teks
+      if (moreText.style.display === "none" || moreText.style.display === "") {
+        moreText.style.display = "inline";
+        this.textContent = "Show Less / Sembunyikan";
+      } else {
+        moreText.style.display = "none";
+        this.textContent = "Read More / Selengkapnya";
+      }
+    });
+  });
+});
