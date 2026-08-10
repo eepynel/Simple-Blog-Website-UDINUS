@@ -70,6 +70,7 @@ body {
     border-bottom: 2px solid #BDD18D;
     padding-bottom: 5px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .card img {
@@ -79,12 +80,25 @@ body {
     border-radius: 4px;
     object-fit: cover;
     object-position: center;
+    display: block;
+    margin: 10px auto;
 }
 
 .card ul {
     list-style: none;
     display: flex;
     justify-content: right;
+}
+
+#porto img {
+    width: 426px;
+    height: 240px;
+    display: block;
+    margin: 10px auto;
+}
+
+#porto ul {
+    justify-content: center;
 }
 
 .card li a {
@@ -96,6 +110,7 @@ body {
     background-color: #173C4C;
     padding: 10px;
     border-radius: 4px;
+    list-style: none;
 }
 
 .card li a:hover {
@@ -153,9 +168,10 @@ button:hover {
 .result-box {
     margin-top: 20px;
     padding: 15px;
-    background-color: #BDD18D;
-    border: 1px solid #326D6C;
+    background-color: white;
+    border: 1px solid #85B093;
     border-radius: 4px;
+    color:#568F7C;
 }
 
 /* 4. Footer (Lain-lain) */
